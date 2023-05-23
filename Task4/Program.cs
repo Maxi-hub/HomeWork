@@ -1,4 +1,6 @@
-﻿int Max (int arg1, int arg2, int arg3)
+﻿// Программа, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
+
+int Max (int arg1, int arg2, int arg3)
 {
     int result = arg1;
     if (arg2 > result) result = arg2;
@@ -17,13 +19,10 @@ int b2 = 3;
 int c2 = 9;
 
 int max = Max(a, b, c);
-Console.WriteLine(max);
+Console.WriteLine($"max = {max}");
 
 int max1 = Max(a1, b1, c1);
-Console.WriteLine(max1);
+Console.WriteLine($"max = {max1}");
 
 int max2 = Max(a2, b2, c2);
-Console.WriteLine(max2);
-
-
-
+Console.WriteLine($"max = {max2}");
